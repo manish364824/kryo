@@ -7,6 +7,10 @@ dist: trusty
 sudo: false
 language: java
 
+arch:
+ - amd
+ - ppc64le
+
 env:
   global:
     # Check if version is a SNAPSHOT - grep returns 0 if the pattern is found, otherwise 1
