@@ -20,6 +20,7 @@ env:
   
 jdk:
   - openjdk11
+  - openjdk8
 
 install:
   # build with java 11
